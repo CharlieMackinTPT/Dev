@@ -1,180 +1,532 @@
-<!DOCTYPE html>
-<html>
-
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W5CQN20XWD"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-NDC3JVNKCZ"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'G-NDC3JVNKCZ');
+	</script>
+	<script>document.getElementsByTagName("html")[0].className += " js";</script>
+  	<!-- Analytics-->
+  	<script src="./js/analytics.js"></script>
+  	<!-- JQUERY-->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  	<link rel="stylesheet" href="assets/css/style.css">
+	</script>
+	<!-- App-->
+	<script  type="text/javascript" src="./js/app.js"></script>
+	<!-- Basic -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<!-- Site Metas -->
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
   
-    gtag('config', 'G-W5CQN20XWD');
-  </script>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-
-  <title>Skillsville Family Program Training</title>
+	<title>Skillsville Family Program</title>
 	<link rel="icon" type="image/x-icon" href="GeneralImages/S_Favicon_256.ico">
+  
+	<!-- bootstrap core css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  
+	<!-- fonts style -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,600&display=swap" rel="stylesheet">
+	<!-- font wesome stylesheet -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<!-- Custom styles for this template -->
+	<link href="css/style.css" rel="stylesheet" />
+	<!-- responsive style -->
+	<link href="css/responsive.css" rel="stylesheet" />
+  
+	<head>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <style>
+	  .collapsible {
+		background-color: rgb(95, 0, 158);
+		color: white;
+		cursor: pointer;
+		padding: 18px;
+		width: 100%;
+		border: 25;
+		text-align: center;
+		outline: none;
+		font-size: 25px;
+	  }
+	  
+	  .active, .collapsible:hover {
+		background-color: rgb(95, 0, 158);
+	  }
+	  
+	  .content {
+		padding: 0 18px;
+		display: none;
+		overflow: hidden;
+		background-color: #f1f1f1;
+	  }
+	  </style>
+
+<script>
+	function togglePreWork() {
+	  var pw = document.getElementById("preWork");
+	  var k = document.getElementById("kickOff");
+	  var f = document.getElementById("focus");
+	  var o = document.getElementById("organize");
+	  var r = document.getElementById("remember");
+	  var t = document.getElementById("thinkDifferently");
+	  var fe = document.getElementById("feel");
+	  
+	  if (pw.style.display === "none") {
+		pw.style.display = "block";
+		k.style.display = "none";
+		f.style.display = "none";
+		o.style.display = "none";
+		r.style.display = "none";
+		th.style.display = "none";
+		fe.style.display = "none";
+	  } else {
+		pw.style.display = "none";
+	  }
+	}
+	</script>
+
+<script>
+	function toggleKickOff() {	  var pw = document.getElementById("preWork");
+	  var k = document.getElementById("kickOff");
+	  var f = document.getElementById("focus");
+	  var o = document.getElementById("organize");
+	  var r = document.getElementById("remember");
+	  var t = document.getElementById("thinkDifferently");
+	  var fe = document.getElementById("feel");
+	  
+	  if (k.style.display === "none") {
+		pw.style.display = "none";
+		k.style.display = "block";
+		f.style.display = "none";
+		o.style.display = "none";
+		r.style.display = "none";
+		th.style.display = "none";
+		fe.style.display = "none";
+	  } else {
+		k.style.display = "none";
+	  }
+	}
+	</script>
+
+<script>
+	function toggleFocus() {
+	  var pw = document.getElementById("preWork");
+	  var k = document.getElementById("kickOff");
+	  var f = document.getElementById("focus");
+	  var o = document.getElementById("organize");
+	  var r = document.getElementById("remember");
+	  var t = document.getElementById("thinkDifferently");
+	  var fe = document.getElementById("feel");
+	  
+	  if (f.style.display === "none") {
+		pw.style.display = "none";
+		k.style.display = "none";
+		f.style.display = "block";
+		o.style.display = "none";
+		r.style.display = "none";
+		th.style.display = "none";
+		fe.style.display = "none";
+	  } else {
+		f.style.display = "none";
+	  }
+	}
+	</script>
+
+<script>
+	function toggleOrganize() {
+	  var pw = document.getElementById("preWork");
+	  var k = document.getElementById("kickOff");
+	  var f = document.getElementById("focus");
+	  var o = document.getElementById("organize");
+	  var r = document.getElementById("remember");
+	  var t = document.getElementById("thinkDifferently");
+	  var fe = document.getElementById("feel");
+	  
+	  if (o.style.display === "none") {
+		pw.style.display = "none";
+		k.style.display = "none";
+		f.style.display = "none";
+		o.style.display = "block";
+		r.style.display = "none";
+		th.style.display = "none";
+		fe.style.display = "none";
+	  } else {
+		o.style.display = "none";
+	  }
+	}
+	</script>
+
+<script>
+	function toggleRemember() {
+	  var pw = document.getElementById("preWork");
+	  var k = document.getElementById("kickOff");
+	  var f = document.getElementById("focus");
+	  var o = document.getElementById("organize");
+	  var r = document.getElementById("remember");
+	  var t = document.getElementById("thinkDifferently");
+	  var fe = document.getElementById("feel");
+	  
+	  if (r.style.display === "none") {
+		pw.style.display = "none";
+		k.style.display = "none";
+		f.style.display = "none";
+		o.style.display = "none";
+		r.style.display = "block";
+		th.style.display = "none";
+		fe.style.display = "none";
+	  } else {
+		r.style.display = "none";
+	  }
+	}
+	</script>
+
+<script>
+	function toggleThinkDifferently() {
+	  var pw = document.getElementById("preWork");
+	  var k = document.getElementById("kickOff");
+	  var f = document.getElementById("focus");
+	  var o = document.getElementById("organize");
+	  var r = document.getElementById("remember");
+	  var t = document.getElementById("thinkDifferently");
+	  var fe = document.getElementById("feel");
+	  
+	  if (th.style.display === "none") {
+		pw.style.display = "none";
+		k.style.display = "none";
+		f.style.display = "none";
+		o.style.display = "none";
+		r.style.display = "none";
+		th.style.display = "block";
+		fe.style.display = "none";
+	  } else {
+		th.style.display = "none";
+	  }
+	}
+	</script>
+
+<script>
+	function toggleFeel() {
+	  var pw = document.getElementById("preWork");
+	  var k = document.getElementById("kickOff");
+	  var f = document.getElementById("focus");
+	  var o = document.getElementById("organize");
+	  var r = document.getElementById("remember");
+	  var t = document.getElementById("thinkDifferently");
+	  var fe = document.getElementById("feel");
+	  
+	  if (fe.style.display === "none") {
+		pw.style.display = "none";
+		k.style.display = "none";
+		f.style.display = "none";
+		o.style.display = "none";
+		r.style.display = "none";
+		th.style.display = "none";
+		fe.style.display = "block";
+	  } else {
+		fe.style.display = "none";
+	  }
+	}
+	</script>
 
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,600&display=swap" rel="stylesheet">
-  <!-- font wesome stylesheet -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
-
-
-
-
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    .collapsible {
-      background-color: rgb(95, 0, 158);
-      color: white;
-      cursor: pointer;
-      padding: 18px;
-      width: 100%;
-      border: 25;
-      text-align: center;
-      outline: none;
-      font-size: 25px;
-    }
-    
-    .active, .collapsible:hover {
-      background-color: rgb(36, 0, 83);
-    }
-    
-    .content {
-      padding: 0 18px;
-      display: none;
-      overflow: hidden;
-      background-color: #f1f1f1;
-    }
-    </style>
-    </head>
-
-<body>
-  <div class="top_container">
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
-            <div class="logo-image">
-                  <img src="GeneralImages/Logo.png" class="img-fluid">
-            </div>
-          </a>
-        </nav>
-      </div>
-    </header>
-    <section class="hero_section ">
-      <div class="hero-container container">
-        <div class="hero_detail-box">
-          <center>
-          <h1>
-            Skillsville Family Program Training
-          </h1>
-        </center>
-        </div>
-    </section>
-  </div>
-
- <!-- Title -->
+	  </head>
+	  <body>
+		<div class="top_container">
+		  <!-- header section strats -->
+		  <header class="header_section">
+			<div class="container">
+			  <nav class="navbar navbar-expand-lg custom_nav-container ">
+				<a class="navbar-brand" href="index.html">
+				  <div class="logo-image">
+						<img src="GeneralImages/Logo.png" class="img-fluid">
+				  </div>
+			</a>
+		  </header>
+		  <section class="hero_section ">
+			<div class="hero-container container">
+			  <div class="hero_detail-box">
+				<Center>
+				<h1>
+				Skillsville Family Program
+				</h1>
+			  </Center>
+			  </div>
+		  </section>
+		</div>
+ 
+<!-- Title -->
  <section class="info_section layout_padding-top">
-  <div class="info_logo-box">
-    <div id="Materials"></div>
-    <h2>
-    Kickoff
-    </h2>
-  </div>
-
-   <!-- Materials -->
-  <div class="container layout_padding2">
-    <div class="row">
-      <div class="col-md-6">
-      <center>
-        <a href="PDFs/KickoffMaterials.pdf"> <img src="SessionImages/KickoffMaterials.png" width="50%" height="50%"</a>
-      </center>
-      </div>
-      <div class="col-md-6">
-        <center>
-        <a href="https://docs.google.com/presentation/d/1HNZdOZVSHXX0dV6Yz4L2NUK1tzgvKNolSdfI26BrxrU/edit#slide=id.g2676007cb7f_0_69"> <img src="SessionImages/KickoffSlides.png" width="75%" height="75%"</a>
-      </center>
-      </div>
-    </div>
-</div>
+	<div class="info_logo-box">
+	<Center>
+		<h4>The Skillsville Family Program is a multimedia event series for families with children 5-8.</h4>
+		<h4>The program is designed to enhance children's executive function skills and knowledge about diverse career options.</h4>
+		<h4>To host your own Skillsville Family Program, review the materials below.</h4>
+	</Center>
+	</div>
 </section>
 
 
+<section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
+	<ul class="cd-faq__categories">
+		<li><a class="cd-faq__category truncate" onclick="togglePreWork()" href="">Pre-work</a></li>
+		<li><a class="cd-faq__category truncate" onclick="toggleKickOff()" href="">Kickoff</a></li>
+		<li><a class="cd-faq__category truncate" onclick="toggleFocus()" href="">Focus</a></li>
+		<li><a class="cd-faq__category truncate" onclick="toggleOrganize()" href="">Organize</a></li>
+		<li><a class="cd-faq__category truncate" onclick="toggleRemember()" href="">Remember</a></li>
+		<li><a class="cd-faq__category truncate" onclick="toggleThinkDifferently()" href="">Think Differently</a></li>
+		<li><a class="cd-faq__category truncate" onclick="toggleFeel()" href="">Feel</a></li>
+	</ul> 
 
-<br>
-<br>
-<br>
-<br>
-      <script>
-      var coll = document.getElementsByClassName("collapsible");
-      var i;
-      
-      for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-          this.classList.toggle("active");
-          var content = this.nextElementSibling;
-          if (content.style.display === "block") {
-            content.style.display = "none";
-          } else {
-            content.style.display = "block";
-          }
-        });
-      }
-      </script>
-      </body>
-    </head>
+<!-- About Skillsville-->	
 
-    <div class="common_style">
-   
-
-    <!-- contact section -->
-
-    <div class="bottom_container">
-      <header class="header_section">
-      </header>
-      <section class="hero_section ">
-          <div class="hero_detail-box">
-            <br>
-            <center>
-            <h1>
-              Need help? 
-            </h1>
-            <p>
-              Email us at skillsville@tpt.org 
-            </p>
-          </center>
+	<div class="cd-faq__items">
+		<ul id="preWork" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Pre-work</h2></li>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Watch the Skillsville Overview video</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Overview of the family program and the curriculum pillars. (13 mins)</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/VbEQzWBM4I4"></iframe>
           </div>
-      </section>
-    </div>
-    
+				</div> 
+			</li>
 
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Confirm eligibility</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+			<p>To use facilitate the Family Program you must meet the following requirements:</p> 
+			<ul>
+				<li>Ability to host 4 or more sessions.</li>
+				<li>Reliable, stable internet, of at least 10 Mbps per user at the hosting location.</li>
+				<li>Ability to unblock/whitelist any websites needed for the program at the hosting location.</li>
+				<li>Confidence facilitating technology, and troubleshooting as needed.</li>
+			  </ul>         
+				</div>
+				</div>  
+			</li>
 
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Make your Skillsville Platform account</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>The Skillsville Platform contains the episodes, Skillsville Strategies, digital games, and paper games for your family sessions. You will need to make an account and create children’s accounts for the number of participants you expect to have. Follow the instructions on the website.</p>
+			<p>To create your account, go to <a href="https://bit.ly/Skillsville">bit.ly/Skillsville</href>.</p>
+		</div>
+				</div>  
+			</li>
 
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Advertise for your event</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>We recommend you use our poster. You can print it as-in and fill in the information with a marker, or edit it using a photo editing softwear.</p>
+          </div>
+				</div>  
+			</li>
+			</ul>
 
- 
+<!-- Kickoff -->
+
+		<ul id="kickOff" style="display: none;" class="cd-faq__group">
+			<li class="cd-faq__title"><h2>Kickoff</h2></li>
+			
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Watch the Kickoff training video</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Overview of the family program and the curriculum pillars. (13 mins)</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/VbEQzWBM4I4"></iframe>
+          </div>
+				</div> 
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Print Kickoff session materials</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+			<p>Color printing is preferred, but all our materials will still work in black and white.</p>
+			<ul>
+			<li><a href="Other/HappinessRefelection.pdf">Volunteer Hand Out</a> (1 per volunteer)</li>
+			<li><a href="Other/HappinessRefelection.pdf">Sign-in Sheet</a> (1)</li>
+			<li><a href="Other/HappinessRefelection.pdf">Skillsville Agenda</a> (1 per family, and a few extras)</li>
+			<li><a href="Other/HappinessRefelection.pdf">Kickoff Conversation Card</a> (1 per family, and a few extras)</li>
+			<li><a href="Other/HappinessRefelection.pdf">Happiness Reflection</a> (1 per family, and a few extras, print this double-sided)</li>
+			<li>Skillsville ID badges (Made on the Skillsville Platform)</li>
+		</ul>
+          </div>
+				</div> 
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Watch the Avatar Maker How-to video</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+            <p>Overview of the family program and the curriculum pillars. (13 mins)</p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/VbEQzWBM4I4"></iframe>
+          </div>
+				</div> 
+			</li>
+
+			<li class="cd-faq__item">
+				<a class="cd-faq__trigger" href="#0"><span>Complete the Kickoff Prep Checklist</span></a>
+				<div class="cd-faq__content">
+          <div class="text-component">
+			<p>All items on the <a href="Other/HappinessRefelection.pdf">Kickoff Prep Checklist</a> must be complete before the start of the Kickoff session.</p>
+		</div>
+				</div> 
+			</li>
+
+		</ul> 
+
+<!-- Focus -->
+<ul id="focus" style="display: none;" class="cd-faq__group">
+	<li class="cd-faq__title"><h2>Focus</h2></li>
+	
+	<li class="cd-faq__item">
+		<a class="cd-faq__trigger" href="#0"><span>Watch the Focus training video</span></a>
+		<div class="cd-faq__content">
+  <div class="text-component">
+	<p>Overview of the family program and the curriculum pillars. (13 mins)</p>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/VbEQzWBM4I4"></iframe>
+  </div>
+		</div> 
+	</li>
+
+	<li class="cd-faq__item">
+		<a class="cd-faq__trigger" href="#0"><span>Print Focus session materials</span></a>
+		<div class="cd-faq__content">
+  <div class="text-component">
+	<p>Updated Skillsville ID badges, and a few extras.</p>
+	<p>1 Resume per child, and a few extras.</p>
+	<p>1 copy of Rapid Response per family, and a few extras.</p>
+	<p>1 Volunteer Hand Out per volunteer.</p>
+	<p>1 Sign-in Sheet.</p>
+	<p>1 Skillsville Agenda per family, and a few extras.</p>
+	<p>1 Kickoff Conversation Card per family, and a few extras.</p>
+	<p>1 Happiness Reflection per family, and a few extras. Print this double-sided!</p>
+  </div>
+		</div> 
+	</li>
+
+	<li class="cd-faq__item">
+		<a class="cd-faq__trigger" href="#0"><span>Watch the Rapid Response How-to video</span></a>
+		<div class="cd-faq__content">
+  <div class="text-component">
+	<p>We recommend playing the game before your session so you can help others easily.</p>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/VbEQzWBM4I4"></iframe>
+  </div>
+		</div> 
+	</li>
+	
+	<li class="cd-faq__item">
+		<a class="cd-faq__trigger" href="#0"><span>Watch the Salon Beats How-to video</span></a>
+		<div class="cd-faq__content">
+  <div class="text-component">
+	<p>We recommend playing the game before your session so you can help others easily.</p>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/VbEQzWBM4I4"></iframe>
+  </div>
+		</div> 
+	</li>
+
+	<li class="cd-faq__item">
+		<a class="cd-faq__trigger" href="#0"><span>Complete the Kickoff Prep Checklist</span></a>
+		<div class="cd-faq__content">
+  <div class="text-component">
+	<p>All items on the Kickoff Prep Checklist must be complete before the start of the Kickoff session.</p>
+  </div>
+		</div> 
+	</li>
+
+</ul> 
+
+<!-- Organize -->
+<ul id="organize" style="display: none;" class="cd-faq__group">
+	<li class="cd-faq__title"><h2>Organize</h2></li>
+	<li class="cd-faq__item">
+		<a class="cd-faq__trigger" href="#0"><span>X</span></a>
+		<div class="cd-faq__content">
+  <div class="text-component">
+	<p>X.</p>
+  </div>
+		</div>  
+	</li>
+</ul> 
+
+<!-- Remember -->
+<ul id="remember" style="display: none;" class="cd-faq__group">
+	<li class="cd-faq__title"><h2>Remember</h2></li>
+	<li class="cd-faq__item">
+		<a class="cd-faq__trigger" href="#0"><span>X</span></a>
+		<div class="cd-faq__content">
+  <div class="text-component">
+	<p>X.</p>
+  </div>
+		</div>  
+	</li>
+</ul> 
+
+<!-- Think Differently -->
+<ul id="thinkDifferently" style="display: none;" class="cd-faq__group">
+	<li class="cd-faq__title"><h2>Think Differently</h2></li>
+	<li class="cd-faq__item">
+		<a class="cd-faq__trigger" href="#0"><span>X</span></a>
+		<div class="cd-faq__content">
+  <div class="text-component">
+	<p>X.</p>
+  </div>
+		</div>  
+	</li>
+</ul> 
+
+<!-- Feel -->
+<ul id="feel" style="display: none;" class="cd-faq__group">
+	<li class="cd-faq__title"><h2>Feel</h2></li>
+	<li class="cd-faq__item">
+		<a class="cd-faq__trigger" href="#0"><span>X</span></a>
+		<div class="cd-faq__content">
+  <div class="text-component">
+	<p>X.</p>
+  </div>
+		</div>  
+	</li>
+</ul> 
+
+<a href="#0" class="cd-faq__close-panel text-replace">Close</a>
+
+<div class="cd-faq__overlay" aria-hidden="true"></div>
+</section> <!-- cd-faq -->
+
+<!-- contact section -->
+
+<div class="bottom_container">
+	<header class="header_section">
+	</header>
+	<section class="hero_section ">
+		<div class="hero_detail-box">
+		  <br>
+		  <center>
+		  <h1>
+			Need help? 
+		  </h1>
+		  <p>
+			Email us at skillsville@tpt.org 
+		  </p>
+		</center>
+		</div>
+	</section>
+  </div>
+  
+<script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+<script src="assets/js/main.js"></script> 
 </body>
-
 </html>
