@@ -68,8 +68,86 @@
 		background-color: #f1f1f1;
 	  }
 	  </style>
+
+<script>
+	function togglePreWork() {
+	  var x = document.getElementById("preWork");
+	  if (x.style.display === "none") {
+		x.style.display = "block";
+	  } else {
+		x.style.display = "none";
+	  }
+	}
+	</script>
+
+<script>
+	function toggleKickOff() {
+	  var x = document.getElementById("kickOff");
+	  if (x.style.display === "none") {
+		x.style.display = "block";
+	  } else {
+		x.style.display = "none";
+	  }
+	}
+	</script>
+
+<script>
+	function toggleFocus() {
+	  var x = document.getElementById("focus");
+	  if (x.style.display === "none") {
+		x.style.display = "block";
+	  } else {
+		x.style.display = "none";
+	  }
+	}
+	</script>
+
+<script>
+	function toggleOrganize() {
+	  var x = document.getElementById("organize");
+	  if (x.style.display === "none") {
+		x.style.display = "block";
+	  } else {
+		x.style.display = "none";
+	  }
+	}
+	</script>
+
+<script>
+	function toggleRemember() {
+	  var x = document.getElementById("remember");
+	  if (x.style.display === "none") {
+		x.style.display = "block";
+	  } else {
+		x.style.display = "none";
+	  }
+	}
+	</script>
+
+<script>
+	function toggleThinkDifferently() {
+	  var x = document.getElementById("thinkDifferently");
+	  if (x.style.display === "none") {
+		x.style.display = "block";
+	  } else {
+		x.style.display = "none";
+	  }
+	}
+	</script>
+
+<script>
+	function toggleFeel() {
+	  var x = document.getElementById("feel");
+	  if (x.style.display === "none") {
+		x.style.display = "block";
+	  } else {
+		x.style.display = "none";
+	  }
+	}
+	</script>
+
+
 	  </head>
-  
 	  <body>
 		<div class="top_container">
 		  <!-- header section strats -->
@@ -108,19 +186,19 @@
 
 <section class="cd-faq js-cd-faq container max-width-md margin-top-lg margin-bottom-lg">
 	<ul class="cd-faq__categories">
-		<li><a class="cd-faq__category truncate" href="#preWork">Pre-work</a></li>
-		<li><a class="cd-faq__category truncate" href="#kickOff">Kickoff</a></li>
-		<li><a class="cd-faq__category truncate" href="#focus">Focus</a></li>
-		<li><a class="cd-faq__category truncate" href="#organize">Organize</a></li>
-		<li><a class="cd-faq__category truncate" href="#remember">Remember</a></li>
-		<li><a class="cd-faq__category truncate" href="thinkDifferently">Think Differently</a></li>
-		<li><a class="cd-faq__category truncate" href="#feel">Feel</a></li>
+		<li><a class="cd-faq__category truncate" onclick="togglePreWork()" href="">Pre-work</a></li>
+		<li><a class="cd-faq__category truncate" onclick="toggleKickOff()" href="">Kickoff</a></li>
+		<li><a class="cd-faq__category truncate" onclick="toggleFocus()" href="">Focus</a></li>
+		<li><a class="cd-faq__category truncate" onclick="toggleOrganize()" href="">Organize</a></li>
+		<li><a class="cd-faq__category truncate" onclick="toggleRemember()" href="">Remember</a></li>
+		<li><a class="cd-faq__category truncate" onclick="toggleThinkDifferently()" href="">Think Differently</a></li>
+		<li><a class="cd-faq__category truncate" onclick="toggleFeel()" href="">Feel</a></li>
 	</ul> 
 
 <!-- About Skillsville-->	
 
 	<div class="cd-faq__items">
-		<ul id="preWork" class="cd-faq__group">
+		<ul id="preWork" style="display: none;" class="cd-faq__group">
 			<li class="cd-faq__title"><h2>Pre-work</h2></li>
 			<li class="cd-faq__item">
 				<a class="cd-faq__trigger" href="#0"><span>Watch the Skillsville Overview video</span></a>
@@ -169,7 +247,7 @@
 
 <!-- Kickoff -->
 
-		<ul id="kickOff" class="cd-faq__group">
+		<ul id="kickOff" style="display: none;" class="cd-faq__group">
 			<li class="cd-faq__title"><h2>Kickoff</h2></li>
 			
 			<li class="cd-faq__item">
@@ -221,7 +299,7 @@
 		</ul> 
 
 <!-- Focus -->
-<ul id="focus" class="cd-faq__group">
+<ul id="focus" style="display: none;" class="cd-faq__group">
 	<li class="cd-faq__title"><h2>Focus</h2></li>
 	
 	<li class="cd-faq__item">
@@ -282,7 +360,7 @@
 </ul> 
 
 <!-- Organize -->
-<ul id="organize" class="cd-faq__group">
+<ul id="organize" style="display: none;" class="cd-faq__group">
 	<li class="cd-faq__title"><h2>Organize</h2></li>
 	<li class="cd-faq__item">
 		<a class="cd-faq__trigger" href="#0"><span>X</span></a>
@@ -295,7 +373,7 @@
 </ul> 
 
 <!-- Remember -->
-<ul id="remember" class="cd-faq__group">
+<ul id="remember" style="display: none;" class="cd-faq__group">
 	<li class="cd-faq__title"><h2>Remember</h2></li>
 	<li class="cd-faq__item">
 		<a class="cd-faq__trigger" href="#0"><span>X</span></a>
@@ -308,7 +386,7 @@
 </ul> 
 
 <!-- Think Differently -->
-<ul id="thinkDifferently" class="cd-faq__group">
+<ul id="thinkDifferently" style="display: none;" class="cd-faq__group">
 	<li class="cd-faq__title"><h2>Think Differently</h2></li>
 	<li class="cd-faq__item">
 		<a class="cd-faq__trigger" href="#0"><span>X</span></a>
@@ -321,7 +399,7 @@
 </ul> 
 
 <!-- Feel -->
-<ul id="feel" class="cd-faq__group">
+<ul id="feel" style="display: none;" class="cd-faq__group">
 	<li class="cd-faq__title"><h2>Feel</h2></li>
 	<li class="cd-faq__item">
 		<a class="cd-faq__trigger" href="#0"><span>X</span></a>
